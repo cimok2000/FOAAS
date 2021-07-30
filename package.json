@@ -1,0 +1,29 @@
+{
+  "name": "@cimok2000/foaas",
+  "version": "1.0.0",
+  "description": "FOAAS API wrapper for JS",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon index.ts",
+    "test": "ts-mocha -p ./tsconfig.json ./**/*.test.ts"
+  },
+  "keywords": [],
+  "author": "cimok & Geoxor",
+  "repository": "git://github.com/cimok2000/FOAAS.git",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.4.7",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "ts-mocha": "^8.0.0"
+  }
+}
